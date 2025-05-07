@@ -118,3 +118,17 @@ Uppgift:
 
 🧠 Syfte: Djupare förståelse för parameterhantering, SQL-förfining och exakt dataåtkomst
 
+-------------------------------
+-------------------------------
+-------------------------------
+🔁 Gruppdiskussion 
+
+Vad är en transaktion och varför används BEGIN/COMMIT/ROLLBACK?
+
+Vad är fördelen med many-to-many-relationer jämfört med one-to-many?
+
+Hur hjälper JOIN oss att kombinera data från flera tabeller?
+
+Vilka utmaningar finns med many-to-many relationer?
+
+När är det bra att använda subqueries vs JOINs?
