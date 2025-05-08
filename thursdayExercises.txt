@@ -38,13 +38,6 @@ books (id, title, author_id)
 Relationer:
 1–M: En författare kan ha skrivit flera böcker
 
-Uppgift:
-Rita ER-diagram i valfritt verktyg
-
-Översätt till SQL
-
-Skapa tabeller i PostgreSQL
-
 --------------------------------------
 🟠 Medel nivå
 
@@ -116,9 +109,17 @@ Relationer:
 
 M–M: användare ↔ användare (via follows)
 
-Uppgift:
-Rita ER-diagram
-
-Skapa SQL med kombinerad PK i follows
-
 Fundera: Hur kan man förhindra att en användare följer sig själv?
+
+-----------------------------
+-----------------------------
+-----------------------------
+🔁 Gruppdiskussion:
+
+Vad händer om vi vill lagra fler saker i junction-tabellen? (ex: betyg, datum för registrering)
+
+Vad betyder det att en tabell bara innehåller foreign keys?
+
+Vad innebär det att sätta en kombinerad primary key?
+
+Vilken är den största risken med att inte modellera/skapa ER-diagram för sin databas innan man börjar skriva SQL?
